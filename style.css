@@ -17,10 +17,12 @@ a, a:visited, a:active{
 }
 
 ::-moz-selection { /*Pour Firefox */
+    background: #575756;
     color: #faba20;
 }
 
 ::selection {
+    background: #575756;
     color: #faba20;
 }
 
@@ -127,6 +129,8 @@ h2 > .link:hover:before {
     top: -15px;
 }
 
+.grow { transition: all .2s ease; }
+.grow:hover { transform: scale(1.1); }
 
 @media only screen and (max-width : 768px) {
     #logo{
